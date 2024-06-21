@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Form Practice</title>
+    </head>
+    <body>
+        <form action="index.php" method="post" enctype="multipart/form-data"> 
+            <label for="username">username:</label>
+            <input type="text" id="username" placeholder="Ginny" maxlength="15">
+
+            <label for="password">password:</label>
+            <input type="password" id="password" minlength="4" maxlength="15"><br>
+
+            <label for="email">eamil:</label>
+            <input type="email" id="email" placeholder="ginny@gmail.com"><br>
+
+            <label for="phone">phone#</label>
+            <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+
+            <label for="bday">birthdate:</label>
+            <input type="date" id="bday"><br>
+
+            <label for="quantity">quantity</label>
+            <input type="number" id="quantity" value="1" max="99" min="0"><br>
+
+            
+            <label for="title">title</label> 
+
+            <label for="Mr.">Mr.</label> 
+            <INPUT TYPE="radio" ID="Mr." value="Mr." name="title">
+            <label for="Ms.">Ms.</label> 
+            <INPUT TYPE="radio" id="Ms." value="Ms." name="title">
+            <label for="PhD.">PhD.</label> 
+            <INPUT TYPE="radio" id="PhD."  value="PhD." name="title"><br>
+
+            <label for="payment">payment</label> 
+            <select id="Payment">
+                <option value="Visa">Visa</option>
+                <option value="MasterCard">Mastercard</option>
+                <option value="Paypal">Paypal</option><br> 
+
+            <label for="subscribe">subscribe</label> 
+            <input type="checkbox" id="subscribe"><br> 
+
+            <label for="comment">comment</label> 
+            <textarea id="comment" rows="3" cols="20"></textarea><br>
+
+            <label for="file">file</label> 
+            <input type="file" id="file" accept="image/png, image/jpeg"><br>
+
+            </select>
+
+
+
+
+            <input type="reset"><br>
+            <input type="submit"><br>
+            <button>Click me</button>
+
+        </form> 
+        <figure>
+            <img src="c:\Users\user\Desktop\TO-DO LIST.jpeg" alt="To-do list description"> 
+            <figcaption>To -do list figure and picture description</figcaption>
+        </figure><br>
+        <audio conrols>
+            <source src="lewis_capaldi_pointless_official_video_mp3_45421.mp3">
+        </audio><br>
+    </body>
+</html>
